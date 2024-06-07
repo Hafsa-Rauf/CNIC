@@ -1,0 +1,192 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .card {
+    width: 550px;
+    height: 360px;
+    border-radius: 8px;
+    background-color: rgb(204, 233, 204);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .top-row {
+      width: 100%;
+      height: 70px;
+      /* background-color: red; */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+
+      img {
+        width: 72px;
+        height: 72px;
+        background-color: white;
+      }
+      h1 {
+        padding-left: 10px;
+        margin-bottom: 42px;
+        font-size: 30px;
+        position: relative;
+        line-height: 25px;
+        border-bottom: 2px solid black;
+      }
+      p {
+        padding-left: 80px;
+        margin-bottom: 42px;
+        letter-spacing: -0.3px;
+        word-spacing: 1.5px;
+        position: absolute;
+        font-size: 10px;
+        font-weight: 700;
+        margin-top: 48px;
+        
+      }
+
+      h2 {
+        margin-bottom: 50px;
+        padding-right: 10px;
+        font-size: 15px;
+        font-weight: 750;
+      }
+  .flag {
+        width: 72px;
+        height: 50px;
+        background-color: white;
+        margin-bottom: 25px;
+      }
+    }
+
+    .bottom-row {
+      width: 100%;
+      height: 240px;
+
+      margin-top: 20px;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .col:nth-child(1) {
+      width: 18%;
+      height: 20px;
+
+      img {
+        width: 90px;
+        height: 72px;
+        border-radius: 27px;
+        padding: 2px;
+        margin-left: 10px;
+      }
+    }
+
+    .col:nth-child(2) {
+      width: 55%;
+      height: 230px;
+
+      .passport-info h4 {
+        font-size: 11px;
+        font-weight: 200;
+        padding-left: 10px;
+      }
+
+      .passport-info p {
+        font-size: 13px;
+        font-weight: bold;
+        padding-left: 15px;
+        line-height: 20px;
+      }
+
+      .passport-info h2 {
+        font-size: 19px;
+        font-weight: 150;
+        padding-left: 190px;
+        border-bottom: 2px solid black;
+      }
+
+      .work2-part {
+        /* padding: 30px 0; */
+        border-bottom: 2px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .work2-part:nth-child(1) {
+        margin-left: 30px;
+      }
+
+      .work2-part .country{
+        padding-right: 140px;
+        border-left: 2px solid black;
+      }
+    
+      .work2-part .elem p1 {
+        font-size: 12px;
+    font-weight: bold;
+        margin-left: 16px;
+
+        border-right: 2px solid black;
+      }
+
+      
+      .work2-part .elem:nth-child(2) {
+        border-left: 2px solid black;
+      }
+      .work2-part .elem:nth-child(3) {
+        padding-left: 50px;
+      }
+
+      .work2-part .DOB{
+        padding-right: 50px;
+        border-left: 2px solid black;
+      }
+
+      .work2-part .DOE{
+        padding-right: 50px;
+        border-left: 2px solid black;
+      }
+    }
+
+    .col:nth-child(3) {
+      width: 25%;
+      height: 200px;
+      /* background-color: black; */
+
+      img {
+        width: 110px;
+        height: 130px;
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+      }
+      h3 {
+        font-size: 12px;
+        font-weight: 200;
+        margin-top: 90px;
+        margin-left: 20px;
+        border-top: 1px solid #000;
+      }
+
+      
+    }
+  }
+}
